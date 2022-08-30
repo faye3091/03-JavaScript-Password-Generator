@@ -39,6 +39,7 @@ function generatePassword() {
       alert("Error! Please try retry again!");
       return;
     } else {
+      //this is to ask the user if she/he wants these criterias for the password
       confirmLower = confirm("Will this conrtain Lower case letters?");
       confirmUpper = confirm("Will this contain Upper case Letters?");
       confirmNumber = confirm("Will this contain Numbers?");
