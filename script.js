@@ -32,21 +32,23 @@ function generatePassword() {
 
   if (!passwordLength) {
     alert("Required Value! Please retry");
+    return;
   } else if (passwordLength < 8 || passwordLength > 128) {
     passwordLength = prompt("You must choose between 8 to 128");
     console.log("Password length " + passwordLength);
+    //nested loop for when length user input is less than 8 or more than 128
     if (passwordLength < 8 || passwordLength > 128) {
-      alert("Error! Please try retry again!");
+      alert("Error! Required Value! Please try again!");
       return;
     } else {
       //this is to ask the user if she/he wants these criterias for the password
-      confirmLower = confirm("Will this conrtain Lower case letters?");
+      confirmLower = confirm("Will this contain Lower case letters?");
       confirmUpper = confirm("Will this contain Upper case Letters?");
       confirmNumber = confirm("Will this contain Numbers?");
       confirmSymbol = confirm("Will this contain Special characters?");
     }
   } else {
-    confirmLower = confirm("Will this conrtain Lower case letters?");
+    confirmLower = confirm("Will this contain Lower case letters?");
     confirmUpper = confirm("Will this contain Upper case Letters?");
     confirmNumber = confirm("Will this contain Numbers?");
     confirmSymbol = confirm("Will this contain Special characters?");
@@ -72,6 +74,7 @@ function generatePassword() {
 
   //This is to check if there is no confirmed values then don't proceed or do nothing
   if (typesCount === 0) {
+    alert("You must select atleast 1 criteria. Please try again!");
     return "";
   }
 
