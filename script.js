@@ -38,7 +38,7 @@ function generatePassword() {
     console.log("Password length " + passwordLength);
     //nested loop for when length user input is less than 8 or more than 128
     if (passwordLength < 8 || passwordLength > 128) {
-      alert("Error! Required Value! Please try again!");
+      alert("Error! Please try again!");
       return;
     } else {
       //this is to ask the user if she/he wants these criterias for the password
