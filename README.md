@@ -3,7 +3,9 @@
 ## Description
 
 ```
-This application generates a random password based on user-selected criteria. This app runs in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.
+This application generates a random password based on user-selected criteria.
+This app runs in the browser, and will feature dynamically updated HTML and
+CSS powered by JavaScript code.
 ```
 
 ## User Story
