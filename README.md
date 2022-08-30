@@ -50,20 +50,14 @@ JavaScript
 
 ## Resources
 
-```
 https://net-comber.com/charset.html
 
 https://www.w3schools.com/jsref/jsref_fromcharcode.asp
-```
 
 ## Link to deployed application
 
-```
 https://faye3091.github.io/03-JavaScript-Password-Generator/
-```
 
 ## Repository link
 
-```
 https://github.com/faye3091/03-JavaScript-Password-Generator
-```
